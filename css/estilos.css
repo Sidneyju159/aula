@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("../imagens/fundo.webp");
+    background-size: cover;
+}
+
+.container{
+    width: 98%;
+    margin: 0 auto;
+}
+
+nav, header{
+    text-align: center;
+    color: #832929;
+}
+
+nav, header, main{
+    padding-top: 1%;
+    margin-bottom: 2%;
+}
+
+nav, 
+header, 
+main, 
+footer {
+    width: 100%;
+    float: left;
+    align-items: center;
+    padding: 0.7%;
+}
+
+nav {
+    background-color: rgba(29, 29, 29, 0.3);
+    border-bottom: 1px solid rgb(red, green, rgb(0, 0, 5));
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-image: url("../imagens/fateclogo.png");
+
+}
+
+header{
+    background-color:rgba(175, 175, 175, 0.603);
+    height: 33px;
+    border-radius: 33%;
+}
+
+main{
+    background-color: rgba(245, 233, 233, 0.5);
+    border-radius: 1%;
+}
+
+footer{
+    background-color:rgb(rgb(51, 51, 51), green, blue);
+    border-radius: 3%;
+    padding: 0.2%;
+}
+
+/*comentário*/
+main .caixa{
+    float: left;
+    width: 45%;
+    padding: 2%;
+}
+
+#esquerda{
+    border-right: 3px black;
+}
+
+
+
+#conteudo{
+    float: left;
+    width: 93.9%;
+    padding: 2.8%;
+    text-align: center;
+    border-color:rgba(rgba(254, 0, 0, 0.699), green, blue, alpha);
+    border:double;
+    border-radius: 1%;
+}
+
+main .imagem1{
+    width: 30%;
+}
+
+main .imagem4{
+    width: inherit;
+}
+
+.mapa, .video{
+    border-radius: 2px;
+    width: 94%;
+    height: 499px;
+    margin-top: 1%;
+    border: 0.2px solid #fff;
+    padding: 0.6%;
+    background-color: #010101;    
+    border-radius: 1.5%;
+}
+
+main .imagem2{
+    width:max-content;
+}
+
+
